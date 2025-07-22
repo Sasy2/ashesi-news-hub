@@ -55,4 +55,4 @@ See UML and design in [OOP Project Group 11.pdf](OOP%20Project%20Group%2011%20(2
 
 ## 📜 License
 
-MIT License (or specify if required)
+MIT License 
