@@ -1,0 +1,53 @@
+﻿📱 Instructions for Running the Android App
+
+
+NB: Before proceeding, ensure the following:
+- Developer mode is enabled on your Android device.
+- USB Debugging is set to true.
+- Your device is connected to the computer via a USB cable.
+
+
+
+
+ 🖥️  Installation for Windows
+1️⃣ We have provided you with a batch script to easily run the app on your device.  
+Simply double-click the batch script to install and launch the app on your Android device.  
+
+
+💡 Note:
+- You may be prompted to grant permissions to the script—please allow this.  
+
+
+🍎🐧  Installation for macOS and Linux
+1️⃣ We have provided you with a shell script to easily run the app.  
+Simply double-click the shell script to install and launch the app on your Android device.  
+
+
+💡 Note:  
+- You may be prompted to grant permissions to the script—please allow this.  
+
+
+If the installation fails on macOS or Linux, follow the manual installation steps below:  
+
+
+---
+
+
+🔧 Manual Installation (macOS/Linux)
+1️⃣ Open a terminal.  
+2️⃣ Navigate to the folder containing the APK file and script using the `cd` command.  
+3️⃣ Run the following command to install the APK:  
+—--------------------------------------------------------------
+adb install app-debug.apk
+-----------------------------------------------------------------
+4️⃣ Launch the app on the device using:  
+—--------------------------------------------------------------
+adb shell am start -n project.oop.ashesi_news/.SignupActivity
+—--------------------------------------------------------------
+
+
+📂 Automating the Process:
+Scripts for both Windows and macOS/Linux are provided to make this process seamless for you guys 🙂. 
+
+
+🎉 Enjoy using our news app!
