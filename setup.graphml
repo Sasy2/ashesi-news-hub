@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 2.6.0.4-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:demostyle2="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/2.0" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:Vue2jsNodeStyle="http://www.yworks.com/demos/yfiles-vuejs-node-style/1.0" xmlns:Vue3jsNodeStyle="http://www.yworks.com/demos/yfiles-vue-node-style/3.0" xmlns:explorer-style="http://www.yworks.com/data-explorer/1.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="int" attr.name="zOrder" y:attr.uri="http://www.yworks.com/xml/yfiles-z-order/1.0/zOrder"/>
+	<key id="d1" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d2" for="node" attr.type="string" attr.name="url"/>
+	<key id="d3" for="node" attr.type="string" attr.name="description"/>
+	<key id="d4" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d5" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d6" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d7" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d8" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d10" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d11" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d12" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d13" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d14" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d15" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d16" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d18" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d19" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d19">
+		<y:SharedData>
+			<yjs:SolidColorFill x:Key="1" color="#FF607D8B"/>
+			<yjs:SolidColorFill x:Key="2" color="#FFA3F1BB"/>
+			<yjs:SolidColorFill x:Key="3" color="#FF607D8B"/>
+			<yjs:SolidColorFill x:Key="4" color="#FFA3F1BB"/>
+			<yjs:PolylineEdgeStyle x:Key="5">
+				<yjs:PolylineEdgeStyle.stroke>
+					<yjs:Stroke fill="#FF000000" dashStyle="Dash"/>
+				</yjs:PolylineEdgeStyle.stroke>
+				<yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:Arrow stroke="#FF000000" fill="#FF000000"/>
+				</yjs:PolylineEdgeStyle.targetArrow>
+			</yjs:PolylineEdgeStyle>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d6">
+			<y:Json>{"version":"2.0.0","origin":"yed-live","theme":{"name":"light","version":"1.0.0"},"layout":"layout-series-parallel","config":{"p_useDrawingAsSketch":false,"p_minimumNodeToNodeDistance":32,"p_considerNodeLabels":true,"p_placeEdgeLabels":true}}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d0">4</data>
+			<data key="d5">
+				<y:RectD X="1096.1386307369132" Y="918.75" Width="464.75" Height="316"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="Card" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[-title: String]]></sys:String>
+									<sys:String><![CDATA[ -description:String ]]></sys:String>
+									<sys:String><![CDATA[  -imageUrl:String]]></sys:String>
+									<sys:String><![CDATA[  -comments:List<String> ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String></sys:String>
+									<sys:String></sys:String>
+									<sys:String><![CDATA[+getTitle(): String ]]></sys:String>
+									<sys:String>+setTitle():void</sys:String>
+									<sys:String>+getDescription():String</sys:String>
+									<sys:String>+setDescription():void</sys:String>
+									<sys:String>+getImageUrl():String</sys:String>
+									<sys:String>+setImageUrl():void</sys:String>
+									<sys:String><![CDATA[+getComments():List<String> ]]></sys:String>
+									<sys:String>+setComments():void</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9945652173913043"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9960629921259843"/>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9960629921259843"/>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+				</data>
+			</port>
+		</node>
+		<node id="n1">
+			<data key="d0">5</data>
+			<data key="d5">
+				<y:RectD X="0" Y="1279.75" Width="641.6522614738263" Height="404.5"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="SignupActivity" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String></sys:String>
+									<sys:String><![CDATA[#signupName: EditText #signupEmail: EditText #signupUsername: EditText #signupPassword: EditText]]></sys:String>
+									<sys:String><![CDATA[ #loginRedirectText:TextView ]]></sys:String>
+									<sys:String><![CDATA[# signupButton:Button]]></sys:String>
+									<sys:String><![CDATA[#googleSignupButton:ImageButton ]]></sys:String>
+									<sys:String><![CDATA[# auth:FirebaseAuth]]></sys:String>
+									<sys:String>#googleSignInClient:GoogleSignInClient</sys:String>
+									<sys:String>#googleSignInLauncher:ActivityResultLauncher&lt;Intent&gt;</sys:String>
+									<sys:String><![CDATA[#database:FirebaseDatabase ]]></sys:String>
+									<sys:String>#reference:DatabaseReference</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>+onCreate():void</sys:String>
+									<sys:String>+onClick():void</sys:String>
+									<sys:String>+onComplete():void</sys:String>
+									<sys:String>+onClick():void</sys:String>
+									<sys:String>+firebaseAuthWithGoogle():void</sys:String>
+									<sys:String>+updateUI():void</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+		</node>
+		<node id="n2">
+			<data key="d0">6</data>
+			<data key="d5">
+				<y:RectD X="1697.4022614738265" Y="1279.75" Width="483" Height="268"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="MainActivity" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[  #binding:ActivityMainBinding]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>+onCreate():void</sys:String>
+									<sys:String>+replaceFragment():void</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+		</node>
+		<node id="n3">
+			<data key="d0">7</data>
+			<data key="d5">
+				<y:RectD X="686.6522614738265" Y="1279.75" Width="456" Height="364"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="LoginActivity" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[ #loginUsername: EditText #loginEmail: EditText #loginPassword: EditText]]></sys:String>
+									<sys:String><![CDATA[ #Button loginButton: EditText]]></sys:String>
+									<sys:String><![CDATA[#googleSigninButton: ImageButton ]]></sys:String>
+									<sys:String><![CDATA[#signupRedirectText: TextView ]]></sys:String>
+									<sys:String><![CDATA[#auth:FirebaseAuth ]]></sys:String>
+									<sys:String><![CDATA[#googleSignInClient:GoogleSignInClient ]]></sys:String>
+									<sys:String>#googleSignInLauncher:ActivityResultLauncher&lt;Intent&gt;</sys:String>
+									<sys:String>#database:FirebaseDatabase</sys:String>
+									<sys:String><![CDATA[#reference:    DatabaseReference]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>+onCreate():void</sys:String>
+									<sys:String>+onClick():void</sys:String>
+									<sys:String>+onSuccess():void</sys:String>
+									<sys:String>+onFailure():void</sys:String>
+									<sys:String>+onClick():void</sys:String>
+									<sys:String>+firebaseAuthWithGoogle():void</sys:String>
+									<sys:String></sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+		</node>
+		<node id="n4">
+			<data key="d0">8</data>
+			<data key="d5">
+				<y:RectD X="501.8125" Y="316" Width="464.75" Height="318.75"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="HomeFragment " attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[- cardStackView:CardStackView]]></sys:String>
+									<sys:String><![CDATA[ -adapter: CardStackAdapter ]]></sys:String>
+									<sys:String><![CDATA[ -databaseReference: DatabaseReference ]]></sys:String>
+									<sys:String><![CDATA[-bookmarkViewModel: BookmarkViewModel ]]></sys:String>
+									<sys:String><![CDATA[-layoutManager: CardStackLayoutManager ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[+onCreateView(): View]]></sys:String>
+									<sys:String>+onViewCreated():void</sys:String>
+									<sys:String>+onCardSwiped():void</sys:String>
+									<sys:String>+onCardDragging():void</sys:String>
+									<sys:String>+onCardRewound():void</sys:String>
+									<sys:String>+onCardCanceled():void</sys:String>
+									<sys:String>+onCardAppeared():void</sys:String>
+									<sys:String>+onCardDisappeared():void</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+				</data>
+			</port>
+			<port name="p1"/>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="1,0.14215686274509803"/>
+				</data>
+			</port>
+		</node>
+		<node id="n5">
+			<data key="d0">9</data>
+			<data key="d5">
+				<y:RectD X="1003.625" Y="413.625" Width="641.6522614738263" Height="343.5"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="SearchFragment" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[-searchEditText:EditText ]]></sys:String>
+									<sys:String><![CDATA[-searchRecyclerView: RecyclerView ]]></sys:String>
+									<sys:String><![CDATA[ -adapter: CardGridAdapter ]]></sys:String>
+									<sys:String><![CDATA[ -databaseReference: DatabaseReference ]]></sys:String>
+									<sys:String><![CDATA[-allCards: List<Card> ]]></sys:String>
+									<sys:String><![CDATA[-filteredCards:List<Card> ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[+onCreateView():View ]]></sys:String>
+									<sys:String>+onViewCreated():void</sys:String>
+									<sys:String>+beforeTextChanged():void</sys:String>
+									<sys:String>+onTextChanged():void</sys:String>
+									<sys:String>+afterTextChanged():void</sys:String>
+									<sys:String>+fetchAllCardsFromFirebase():void</sys:String>
+									<sys:String>+onDataChange():void</sys:String>
+									<sys:String>+onCancelled():void</sys:String>
+									<sys:String>+performSearch():void</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,1"/>
+				</data>
+			</port>
+		</node>
+		<node id="n6">
+			<data key="d0">10</data>
+			<data key="d5">
+				<y:RectD X="2192.2772614738265" Y="649.375" Width="442" Height="252"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="BookmarkViewModel" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[ #title:  TextView]]></sys:String>
+									<sys:String><![CDATA[ #description: TextView]]></sys:String>
+									<sys:String><![CDATA[   #imageUrl:  ImageView]]></sys:String>
+									<sys:String><![CDATA[-bookmarkedCards: MutableLiveData<List<Card>> ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>+getBookmarkedCards():LiveData&lt;List&lt;Card&gt;&gt;</sys:String>
+									<sys:String><![CDATA[+addBookmark():void ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.1711915535444944,0"/>
+				</data>
+			</port>
+		</node>
+		<node id="n7">
+			<data key="d0">11</data>
+			<data key="d5">
+				<y:RectD X="1096.1386307369132" Y="0" Width="442" Height="252"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="BookmarkFragment" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[-bookmarkAdapter: BookmarkAdapter ]]></sys:String>
+									<sys:String><![CDATA[ -bookmarkViewModel: BookmarkViewModel ]]></sys:String>
+									<sys:String></sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[+onCreateView(): View ]]></sys:String>
+									<sys:String><![CDATA[+onViewCreated(): void ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+				</data>
+			</port>
+		</node>
+		<node id="n8">
+			<data key="d0">12</data>
+			<data key="d5">
+				<y:RectD X="0" Y="665.375" Width="464.75" Height="220"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="BookmarkAdapter" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String></sys:String>
+									<sys:String><![CDATA[- bookmarkList:List<Card>]]></sys:String>
+									<sys:String><![CDATA[   - context:Context]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[+onCreateViewHolder(): BookmarkViewHolder ]]></sys:String>
+									<sys:String>+onBindViewHolder():void</sys:String>
+									<sys:String><![CDATA[+getItemCount(): int]]></sys:String>
+									<sys:String>+updateData():void</sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+				</data>
+			</port>
+		</node>
+		<node id="n9">
+			<data key="d0">13</data>
+			<data key="d5">
+				<y:RectD X="1677.2772614738265" Y="491.375" Width="483" Height="188"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="CardGridAdapter" attributesOpen="false" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[-  cards: List<Card>]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>+CardGridAdapter():</sys:String>
+									<sys:String>+updateData():void</sys:String>
+									<sys:String>+onCreateViewHolder():CardViewHolder</sys:String>
+									<sys:String>+onBindViewHolder():void</sys:String>
+									<sys:String>+getItemCount():int</sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.0052631578947368585"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+				</data>
+			</port>
+		</node>
+		<node id="n10">
+			<data key="d0">14</data>
+			<data key="d5">
+				<y:RectD X="496.75" Y="666.75" Width="474.875" Height="188"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 1}" highlightFill="{y:GraphMLReference 2}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="CardStrackAdapter" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[-cards: List<Card> ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[+onCreateViewHolder():ViewHolder ]]></sys:String>
+									<sys:String>+onBindViewHolder():void</sys:String>
+									<sys:String>+getItemCount():int</sys:String>
+									<sys:String>+getItemAt():Card</sys:String>
+									<sys:String></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+			<port name="p0"/>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0"/>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,1"/>
+				</data>
+			</port>
+		</node>
+		<node id="n11">
+			<data key="d0">15</data>
+			<data key="d5">
+				<y:RectD X="0" Y="1729.25" Width="469" Height="252"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="FullScreenCardActivity" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String><![CDATA[+onCreate():void ]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+		</node>
+		<node id="n12">
+			<data key="d0">16</data>
+			<data key="d5">
+				<y:RectD X="1187.6522614738265" Y="1279.75" Width="464.75" Height="284"/>
+			</data>
+			<data key="d7">
+				<uml:UMLNodeStyle fill="{y:GraphMLReference 3}" highlightFill="{y:GraphMLReference 4}">
+					<uml:UMLNodeStyle.model>
+						<uml:UMLClassModel stereotype="" constraint="" className="HelperClass" attributesOpen="true" operationsOpen="true">
+							<uml:UMLClassModel.attributes>
+								<x:Array Type="sys:Object">
+									<sys:String>-name:Srtring</sys:String>
+									<sys:String>-email:Srtring</sys:String>
+									<sys:String><![CDATA[ -username:Srtring]]></sys:String>
+									<sys:String><![CDATA[ -password:Srtring]]></sys:String>
+								</x:Array>
+							</uml:UMLClassModel.attributes>
+							<uml:UMLClassModel.operations>
+								<x:Array Type="sys:Object">
+									<sys:String>+getName():String</sys:String>
+									<sys:String>+setName():void</sys:String>
+									<sys:String>+getEmail():String</sys:String>
+									<sys:String>+setEmail():void</sys:String>
+									<sys:String>+getUsername():String</sys:String>
+									<sys:String>+setUsername():void</sys:String>
+									<sys:String>+getPassword():String</sys:String>
+									<sys:String>+setPassword():void</sys:String>
+								</x:Array>
+							</uml:UMLClassModel.operations>
+						</uml:UMLClassModel>
+					</uml:UMLNodeStyle.model>
+				</uml:UMLNodeStyle>
+			</data>
+		</node>
+		<edge id="e0" source="n7" target="n8" sourceport="p1" targetport="p0">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="1317.1386307369132,284"/>
+					<y:Bend Location="232.375,284"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="5"/>
+			</data>
+		</edge>
+		<edge id="e1" source="n7" target="n6" sourceport="p2" targetport="p0">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="1317.1386307369132,284"/>
+					<y:Bend Location="2413.2772614738265,284"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="5"/>
+			</data>
+		</edge>
+		<edge id="e2" source="n5" target="n0" sourceport="p0" targetport="p4">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="1324.4511307369132,886.75"/>
+					<y:Bend Location="1328.5136307369132,886.75"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="5"/>
+			</data>
+		</edge>
+		<edge id="e3" source="n4" target="n10" sourceport="p0" targetport="p1">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="5"/>
+			</data>
+		</edge>
+		<edge id="e4" source="n4" target="n6" sourceport="p2" targetport="p1">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="2267.943928140493,361.3125"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="5"/>
+			</data>
+		</edge>
+		<edge id="e5" source="n9" target="n0" sourceport="p2" targetport="p5">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="1918.7772614738265,886.75"/>
+					<y:Bend Location="1328.5136307369132,886.75"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="5"/>
+			</data>
+		</edge>
+		<edge id="e6" source="n10" target="n0" sourceport="p2" targetport="p6">
+			<data key="d12">
+				<x:List>
+					<y:Bend Location="734.1875,886.75"/>
+					<y:Bend Location="1328.5136307369132,886.75"/>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="5"/>
+			</data>
+		</edge>
+	</graph>
+</graphml>
